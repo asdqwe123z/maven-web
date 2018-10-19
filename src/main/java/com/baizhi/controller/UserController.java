@@ -22,6 +22,7 @@ public class UserController {
     public @ResponseBody
     List<User> selectAll() {
         System.out.println("123123123");
+        System.out.println("123123123");
         return service.selectAll();
     }
 }
